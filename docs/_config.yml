@@ -65,36 +65,28 @@ plugins:
 include:
   - .htaccess
   - _pages
-  - _site
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
+  # recommendd
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
+  - Gemfile.lock
+  # custom
+  - CHANGELOG
   - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
   - README
-  - tmp
+  - .idea/
+  - .DS_Store
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+#markdown_ext: "markdown, md"
 
 
 # Conversion
@@ -105,33 +97,13 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 timezone: Asia/Hong_Kong
 
 
 # HTML Compression
 # - http://jch.penibelst.de/
-compress_html:
-  clippings: all
+#compress_html:
+#  clippings: all
 #  ignore:
 #    envs: development
 
@@ -202,4 +174,4 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: light
+color_scheme: dark
