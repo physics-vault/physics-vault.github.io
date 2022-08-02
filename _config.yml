@@ -37,6 +37,8 @@ url: https://physics-vault.github.io # the base hostname & protocol for your sit
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
+  - jemoji
+  - jekyll-sitemap
 
 
 #permalink: pretty
@@ -90,11 +92,11 @@ encoding: "utf-8"
 
 
 # Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+#markdown: kramdown
+#highlighter: rouge
+#lsi: false
+#excerpt_separator: "\n\n"
+#incremental: false
 
 
 timezone: Asia/Hong_Kong
