@@ -65,6 +65,7 @@ plugins:
 include:
   - .htaccess
   - _pages
+  - _site
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
