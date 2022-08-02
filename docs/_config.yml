@@ -38,6 +38,11 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
 
+
+permalink: pretty
+exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "script/", "LICENSE.txt", "README.md", "docs/tests/"]
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -91,9 +96,9 @@ search:
 
 
 # Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+#aux_links:
+#  "Just the Docs on GitHub":
+#    - "//github.com/just-the-docs/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -125,4 +130,21 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
+
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
