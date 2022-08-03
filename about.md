@@ -5,15 +5,32 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
+The origins of this site explained.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Background
+This site strives to document a personal journey to revisit some modern physics concepts, 
+particularly some quantum field theory concepts, 
+that I have encountered while studying as a research student at graduate school previously.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I plan to focus on a set of well-known books in the field,
+and to work my way through these,
+coming up with solutions to the textbook problems wherever and whenever possible,
+and to share these using the space here. 
 
+## Book lists
+A preliminary list of textbooks targeted are as follows:
 
-[jekyll-organization]: https://github.com/jekyll
+### Particle Physics
+* Halzen and Marton's "Quarks and Leptons: An Introductory Course in Modern Particle Physics": [https://www.amazon.com/Quarks-Leptons-Introductory-Particle-Physics/dp/0471887412](https://www.amazon.com/Quarks-Leptons-Introductory-Particle-Physics/dp/0471887412)
+* Griffiths' "Introduction to Elementary Particles": [https://www.amazon.com/Introduction-Elementary-Particles-David-Griffiths/dp/3527406018](https://www.amazon.com/Introduction-Elementary-Particles-David-Griffiths/dp/3527406018)
+
+### Quantum Field Theory
+* Peskin and Schroeder's "An Introduction To Quantum Field Theory": [https://www.amazon.com/Introduction-Quantum-Field-Theory/dp/0367320568](https://www.amazon.com/Introduction-Quantum-Field-Theory/dp/0367320568)
+* Srednicki's "Quantum Field Theory": [https://www.amazon.com/Quantum-Field-Theory-Mark-Srednicki/dp/0521864496](https://www.amazon.com/Quantum-Field-Theory-Mark-Srednicki/dp/0521864496)
+
+### Quantum Mechanics
+* Griffiths and Schroeter's "Introduction to Quantum Mechanics": [https://www.amazon.com/Introduction-Quantum-Mechanics-David-Griffiths/dp/1107189632](https://www.amazon.com/Introduction-Quantum-Mechanics-David-Griffiths/dp/1107189632)
+
+### General Relativity
+* Carroll's "Spacetime and Geometry: An Introduction to General Relativity": [https://www.amazon.com/Spacetime-Geometry-Introduction-General-Relativity/dp/1108488390](https://www.amazon.com/Spacetime-Geometry-Introduction-General-Relativity/dp/1108488390)
