@@ -1,0 +1,12 @@
+site:
+  title: The Physics Vault
+  start_page: main-component::index.adoc
+content:
+  sources:
+    - url: https://github.com/physics-vault/physics-vault-docs.git
+      branches: [main]
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
